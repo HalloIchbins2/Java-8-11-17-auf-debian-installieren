@@ -1,0 +1,3 @@
+#Allgemeine Installationen
+apt update && apt upgrade -y
+apt install screen
