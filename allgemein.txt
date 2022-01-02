@@ -1,8 +1,0 @@
-apt update && apt upgrade -y
-apt install screen
-
-#Zum erstellen der start.sh:
-nano start.sh
-
-#start.sh Rechte geben:
-chmod 777 ./start.sh

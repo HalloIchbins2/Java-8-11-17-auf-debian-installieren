@@ -1,0 +1,16 @@
+apt update && apt upgrade -y
+apt install screen
+
+#Zum erstellen der start.sh:
+nano start.sh
+
+#start.sh Rechte geben:
+chmod 777 ./start.sh
+
+#Server aus dem Screen Stoppen:
+STRG + C
+
+#Screens:
+screen -ls #Listet alle screens auf
+screen -r <name> #öffnet den besagten screen
+#Im screen STRG+C schließt diesen wieder
