@@ -1,4 +1,6 @@
+#Diese Installation ist geeignet für die Minecraftversionen bis zur 1.16.x
+
 apt install apt-transport-https ca-certificates wget dirmngr gnupg software-properties-common -y
 wget -qO - https://adoptopenjdk.jfrog.io/adoptopenjdk/api/gpg/key/public | apt-key add -
 add-apt-repository --yes https://adoptopenjdk.jfrog.io/adoptopenjdk/deb/
-java -version
+java -version #überprüft deine Java-Version
