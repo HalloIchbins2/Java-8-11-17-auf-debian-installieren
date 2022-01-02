@@ -14,3 +14,7 @@ STRG + C
 screen -ls #Listet alle screens auf
 screen -r <name> #öffnet den besagten screen
 #Im screen STRG+C schließt diesen wieder
+
+#Versionen mit wget Befehl:
+wget https://papermc.io/api/v2/projects/paper/versions/1.8.8/builds/445/downloads/paper-1.8.8-445.jar
+wget https://papermc.io/api/v2/projects/paper/versions/1.18.1/builds/112/downloads/paper-1.18.1-112.jar
