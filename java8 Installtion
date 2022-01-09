@@ -5,4 +5,4 @@ wget -qO - https://adoptopenjdk.jfrog.io/adoptopenjdk/api/gpg/key/public | apt-k
 add-apt-repository --yes https://adoptopenjdk.jfrog.io/adoptopenjdk/deb/
 apt update
 apt install adoptopenjdk-8-hotspot -y
-java -version #überprüft deine Java-Version
+java -version
