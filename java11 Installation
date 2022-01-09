@@ -1,0 +1,5 @@
+#Diese Installation ist geeignet für die Minecraftversionen ab der 1.17
+
+apt update
+apt install openjdk-11-jre-headless -y
+java -version
